@@ -4,7 +4,7 @@ import requests
 
 if __name__ == "__main__":
     s = requests.session()
-    r = s.post('https://httpbin.org/anything', data={'hello': 'kevin'})
+    r = s.post('https://httpbin.org/anything', data={'hello': '北辰'})
     # 返回文本型response
     print("---------------1---------------------")
     print(r.text)

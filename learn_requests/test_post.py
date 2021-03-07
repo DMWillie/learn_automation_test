@@ -4,8 +4,8 @@ from requests.auth import HTTPBasicAuth
 if __name__ == '__main__':
     url = 'https://httpbin.org/anything'
     headers = {'user-agent': 'my-app/  0.0.1'}
-    payloads = {'iTesting': 'better to follow'}
-    auth = {"username":"iTesting", "password": "Kevin"}
+    payloads = {'从小白到专家': 'better to follow'}
+    auth = {"username":"北辰", "password": "code"}
     # 直接post
     r = requests.post(url, data=payloads)
     # post带header
